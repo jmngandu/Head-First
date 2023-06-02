@@ -1,7 +1,5 @@
-dogs_name = input("What is your dogs name?")
-dogs_age = input('What is your dogs age?')
-human_age =int (dogs_age) * 7
-print(dogs_name)
-print(dogs_age)
+dog_name = input("What is your dogs name?")
+dog_age = input('What is your dogs age?')
+human_age =int (dog_age) * 7
 
-print(human_age)
+print('Your dog',dog_name,'is',human_age,'years old in human years')
