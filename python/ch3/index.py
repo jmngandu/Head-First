@@ -1,4 +1,3 @@
-temp = 'first'
-first = 'last'
-last = 'temp'
-print(first, last)
+import random
+random.randint(0,2)
+cvbhjkljvbnm,
