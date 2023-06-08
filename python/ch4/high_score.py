@@ -10,5 +10,9 @@ for i in range(length):
     print('Bubbles tests:', length)
     print('Highest bubble score:', high_score)
     best_solutions = []
+for i in range(length):
+    if high_score == scores[i]:
+        best_solutions.append(i)
+        print('Solutions with the highest score:', best_solutions)
 
 
