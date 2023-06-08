@@ -6,3 +6,5 @@ i = 0
 length = len(smoothies)
 for i in range(length):
     print('smoothes ' +str(i), smoothies[i])
+ 
+ 
