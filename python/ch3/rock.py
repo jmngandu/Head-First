@@ -1,3 +1,10 @@
+#ROCK, PAPER, SCISSORS
+#Passed down from the ancient Chinese Han dynasty, the game
+#shoushiling is now better known as Rock, Paper, Scissors.
+#This code implements a version of the game that is you against
+#the computer.
+# Here we're doing some setup by importing the random module
+# and setting up the winner variable.
 import random
 winner = ''
 random_choice = random.randint(0,2)
