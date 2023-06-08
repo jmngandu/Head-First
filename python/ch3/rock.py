@@ -7,6 +7,9 @@
 # and setting up the winner variable.
 import random
 winner = ''
+# The computer randomly chooses rock, paper, scissors by
+# generating a random number from 0 to 2 and then mapping that
+# to a corresponding string.
 random_choice = random.randint(0,2)
 if random_choice == 0:
     computer_choice = 'rock'
@@ -14,7 +17,7 @@ elif random_choice == 1:
     computer_choice = 'paper'
 else:
     computer_choice = 'scissors'
-
+# Get the user's choice with a simple input statement.
     user_choice = ''
 while (user_choice != 'rock' and
 user_choice != 'paper' and
