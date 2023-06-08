@@ -5,4 +5,4 @@ i = 0
 length = len(scores)
 for i in range(length):
     i = i + 1
-    print('The score in ' +str(i), 'is', scores[i] )  
+    print('Bubble solution #' + str(i), 'score:', scores[i])
