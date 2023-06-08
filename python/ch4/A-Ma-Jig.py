@@ -1,4 +1,4 @@
-characters = ['t', 'a', 'c', 'o']
+characters = ['a', 'm', 'a', 'n', 'a', 'p', 'l', 'a', 'n', 'a', 'c']
 output = ''
 length = len(characters)
 i = 0
