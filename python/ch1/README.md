@@ -1,0 +1,2 @@
+thinking computationall
+Getting Startedy
