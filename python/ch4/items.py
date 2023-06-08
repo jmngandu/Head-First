@@ -8,3 +8,7 @@ length = len(smoothies)#tells you how many items are in the list
 print(length)
 last =smoothies[length -1]#getting the last item
 print(last)
+second_last = smoothies[-2]
+third_last = smoothies[-3]
+print(second_last)
+print(third_last)
