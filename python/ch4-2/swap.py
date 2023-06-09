@@ -4,3 +4,4 @@ def bubble_sort(scores):
         swapped = False
         for i in range(0, len(scores)-1):
             if scores[i] > scores[i+1]:
+                temp = scores[i]
