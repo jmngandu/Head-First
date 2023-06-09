@@ -11,5 +11,8 @@ def bubble_sort(scores):
                 scores[i] = scores[i+1]
                 scores[i+1] = temp
                 swapped = True
-                bubble_sort(scores)
-                print(scores)
+bubble_sort(scores)
+print(scores)
+smoothies = ['coconut', 'strawberry', 'banana', 'pineapple']
+bubble_sort(smoothies)
+print(smoothies)
