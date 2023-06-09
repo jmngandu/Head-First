@@ -8,6 +8,7 @@ def bark(name, weight):
 
 bark('Codie', 40)
 bark('Sparky', 9)
-bark('Jackson', 12)
+bark('jackson', 12)
 bark('Fido', 65)
+bark('Barnaby', -1)
 print("Okay, we're all done")
