@@ -6,3 +6,5 @@ def bubble_sort(scores):
             if scores[i] > scores[i+1]:
                 temp = scores[i]
                 scores[i] = scores[i+1]
+                scores[i+1] = temp
+                swapped = True
