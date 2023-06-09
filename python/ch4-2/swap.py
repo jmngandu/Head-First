@@ -1,2 +1,4 @@
 def bubble_sort(scores):
- swapped = True
+    swapped = True
+    while swapped:
+        swapped = False
