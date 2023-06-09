@@ -11,3 +11,5 @@ def bubble_sort(scores):
                 scores[i] = scores[i+1]
                 scores[i+1] = temp
                 swapped = True
+                bubble_sort(scores)
+                print(scores)
