@@ -4,7 +4,7 @@ def get_attribute(query, default):
     if (answer == ''):
         answer = default
     print('You chose', answer)
-    
+    return answer
 hair = get_attribute('What hair color', 'brown')
 hair_length = get_attribute('What hair length', 'short')
 eye = get_attribute('What eye color', 'blue')
