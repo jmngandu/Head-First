@@ -6,7 +6,7 @@ def steal(balance, amount): #..but it’s shadowed by this parameter.
     if (amount < balance):
         balance = balance - amount #So when you change the balance in the function steal,
                                    #you’re not changing the actual bank balance!
-    return amount
+    return amount      #We’re returning the amount stolen...
     camera_on = True 
 proceeds = steal(balance, 1250)
 print('Criminal: you stole', proceeds)   
