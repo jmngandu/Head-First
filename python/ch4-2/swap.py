@@ -1,3 +1,9 @@
+ #a parallel list called solutions_numbers , where each value in the list is 
+ #the same as its index, like [0, 1, 2, 3, ..., 35] ? at the end, each score 
+ #number will be in the same relative position as its corresponding score.
+
+
+
 scores = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69,
 34, 55, 51, 52, 44, 51, 69, 64, 66, 55, 52, 61,
 46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44]
