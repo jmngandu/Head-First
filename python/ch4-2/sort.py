@@ -6,7 +6,7 @@ def bubble_sort(scores):
     while swapped:
         swapped = False
         for i in range(0, len(scores)-1):
-            if scores[i] > scores[i+1]:
+            if scores[i] > scores[i+1]: # (<) This is all you need to change to have a descending sort.
                 temp = scores[i]
                 scores[i] = scores[i+1]
                 scores[i+1] = temp
