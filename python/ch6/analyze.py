@@ -16,7 +16,7 @@ def compute_readability(text):#function that takes text as a parameter
     words = text.split()
     total_words = len(words)
     total_sentences = count_sentences(text)
-    print(words)
+   
     print(total_words, 'words')
     print(total_sentences, 'sentences')
     
