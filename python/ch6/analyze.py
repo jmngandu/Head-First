@@ -6,3 +6,9 @@ def compute_readability(text):#function that takes text as a parameter
     score = 0
     print(text)
 compute_readability(ch1text.text)
+
+def count_sentences(text):
+    count = 0
+for char in text:
+    
+    return count
