@@ -12,6 +12,13 @@ def compute_readability(text):#function that takes text as a parameter
     total_sentences = 0
     total_syllables = 0
     score = 0
-    print(text)
+
+    words = text.split()
+    total_words = len(words)
+    total_sentences = count_sentences(text)
+    print(words)
+    print(total_words, 'words')
+    print(total_sentences, 'sentences')
+    
 compute_readability(ch1text.text)
 
