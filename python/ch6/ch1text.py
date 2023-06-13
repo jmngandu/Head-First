@@ -8,5 +8,5 @@ skill, but its actually something you do every day. Let’s look at an
 example, a simple one: say you wanted to break the activity of fishing
 down into a simple set of instructions that you could hand to a robot,
 who would do your fishing for you."""
-print(text)
+
 
