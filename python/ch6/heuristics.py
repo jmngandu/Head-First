@@ -5,10 +5,10 @@
 #answer.
 def count_syllables(words):
     count = 0
-for word in words:
-    word_count = count_syllables_in_word(word)
-    count = count + word_count
-return count
+    for word in words:
+        word_count = count_syllables_in_word(word)
+        count = count + word_count
+    return count
 def count_syllables_in_word(word):
     count = 0
     return count
