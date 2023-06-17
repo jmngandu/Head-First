@@ -1,3 +1,5 @@
 my_list = list()
 my_list.append('first')
+my_list.append('second')
+my_list.reverse()
 print(my_list)
