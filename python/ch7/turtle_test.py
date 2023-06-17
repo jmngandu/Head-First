@@ -1,3 +1,4 @@
+#make_square
 import turtle
 
 slowpoke = turtle.Turtle()
