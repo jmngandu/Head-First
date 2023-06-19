@@ -1,8 +1,6 @@
-names = ['Kim', 'John', 'Josh']
-emails = ['kim@oreilly.com', 'john@abc.com', 'josh@wickedlysmart.com']
 users = {'Kim' : 'kim@oreilly.com',
-    'John': 'john@abc.com',
-    'Josh': 'josh@wickedlysmart.com'}
+        'John': 'john@abc.com',
+        'Josh': 'josh@wickedlysmart.com'}
 users['Avary'] = 'avary@gmail.com'
 del users['John']
 if 'Josh' in users:
