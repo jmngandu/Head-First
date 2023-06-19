@@ -20,7 +20,7 @@ print('--------------------------------')
 for name in movies:
     movie = movies[name]
     if len(movie['rating']) >= 4:
-    print(movie['name'], '(' + movie['rating'] + ')', movie['year'])
+        print(movie['name'], '(' + movie['rating'] + ')', movie['year'])
 print('Head First Movie Staff Pick')
 print('---------------------------')
 movie = movies['I Was a Teenage Werewolf']
