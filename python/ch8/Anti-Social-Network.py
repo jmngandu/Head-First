@@ -15,3 +15,6 @@ else:
 
 for key in my_dictionary:
     print(key, ":", my_dictionary[key])
+
+harry = {'firstname': 'Harry', 'lastname': 'Potter', 'house': 'Gryffindor', 'friends': ['Ron', 'Hermione'], 'born': 1980}
+print(my_dictionary)
