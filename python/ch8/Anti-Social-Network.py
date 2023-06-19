@@ -12,3 +12,6 @@ if 'jenny' in my_dictionary:
     print('found her ', my_dictionary['jenny'])
 else:
     print('I need to get her number')
+
+for key in my_dictionary:
+    print(key, ":", my_dictionary[key])
