@@ -6,7 +6,7 @@ def fibonacci(n):
         return 1
     else:
        return fibonacci(n-1) + fibonacci(n-2)
-for i in range(20, 55, 5):
+for i in range(20, 100, 5):
     start = time.time()
     result = fibonacci(i)
     end = time.time()
