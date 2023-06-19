@@ -3,9 +3,9 @@ def the_palindrome(word):
         return True
     else:
         if word[0] == word[-1]:
-            return the_palindrome(word[0:-1])
+            return the_palindrome(word[1:-1])
         else:
             return False
-words = ('a', 'tacocat', 'james', 'ada', 'kenya')
+words = ['tacocat', 'radar', 'yak', 'rader', 'kayjak']
 for word in words:
     print(word, the_palindrome(word))
