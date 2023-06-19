@@ -1,10 +1,11 @@
-marbles = [10, 23, 24, 65, 45]
-print("the total sum is = ", sum(marbles))
-
-def mukuvi_sum(list):
-    sum = 0
-    for number in list:
-        sum = sum + number
+marbles = [10, 13, 39, 14, 41, 9, 3]
+def recursive_compute_sum(list):
+    if len(list) == 0:
+        return 0
+    else:
+        first = list[0]
+        rest = list[1:]
+        sum = first + recursive_compute_sum(rest)
         return sum
-print(mukuvi_sum(marbles))
-
+sum = recursive_compute_sum(marbles)
+print(sum)
